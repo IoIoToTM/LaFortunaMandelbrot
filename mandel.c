@@ -358,8 +358,8 @@ void main()
     sei();
 
     display_string_xy("Welcome to MandelBrot generator",20,20);
-    display_string_xy("Choose coordinates, pixel size and press center to start",20,40);
-    display_string_xy("The smaller the pixel size the slower it is",20,60);
+    display_string_xy("Choose coordinates, pixel size and iteration number",10,40);
+    display_string_xy("(the smaller the pixel size\the higher the iteration number the slower it is)",20,60);
 
 
     int xPos = 0, yPos =0;
